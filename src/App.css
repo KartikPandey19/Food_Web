@@ -32,15 +32,29 @@
 }
 
 .res-container{
-  border: 2px solid red;
-  width:300px;
-  padding:10px
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.res-card{
+  margin: 5px;
+  background-color: #f0f0f0;
+  
+  width:200px;
+  padding:10px;
+}
+
+.res-card:hover{
+  border: 2px solid black;
 }
 
 .res-img{
   text-align: center;
 }
 .res-img >img{
-  width: 300px;
+  width: 200px;
+  height: 200px;
   
 }
