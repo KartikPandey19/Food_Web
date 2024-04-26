@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .logo{
   width: 100px;
 
@@ -41,6 +43,7 @@
 .res-card{
   margin: 5px;
   background-color: #f0f0f0;
+  font-family: "Montserrat", sans-serif;
   
   width:200px;
   padding:10px;
