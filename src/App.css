@@ -14,12 +14,19 @@
 
 .nav-items > ul{
   display: flex;
+  margin:22px;
 }
 
 .nav-items > ul > li{
-  
-  list-style: none;
   margin:22px;
+  list-style: none;
+  
+}
+
+.login-btn{
+  margin-left:3px;
+  padding: 0 20px;
+  cursor: pointer;
 }
 
 .body{
@@ -28,6 +35,8 @@
 
 .filter{
   padding:6px 0;
+  display: flex;
+
 }
 
 .filter > button{
@@ -37,20 +46,36 @@
 
 }
 
+.search{
+   margin:0 10px;
+}
+.search > button{
+  padding: 2px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.search > input{
+  padding: 2px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
 .res-container{
+  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
-  margin:0 10px;
-  
-  
+  /* margin:0 10px; */
+
 }
 
 .res-card{
   background-color: #f0f0f0;
   font-family: "Montserrat", sans-serif;
-  
-  width:200px;
+  width:180px;
   padding:10px;
+  margin:25px;
 }
 
 .res-card:hover{
@@ -63,28 +88,29 @@
   text-align: center;
 }
 .res-img >img{
-  width: 200px;
+  width: 180px;
   height: 200px;
   
 }
-
 .shimmer-container{
+  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
-  margin:0 10px;
+  margin-top:30px;
 }
 
 .shimmer-card{
   background-color: #f0f0f0;
   font-family: "Montserrat", sans-serif;
-  width:200px;
-  height:500px;
+  width:180px;
+  height:400px;
   padding:10px;
+  margin:25px;
 }
 
 .shimmer-img{
   background-color:#b1b1b1;
-  width: 200px;
+  width: 180px;
   height: 200px;
-  
 }
+

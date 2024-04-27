@@ -1,6 +1,7 @@
 const ShimmerUI = ()=>{
 
     return(
+    
         <div className="shimmer-container">
             <div className="shimmer-card">
                 <div className="shimmer-img"></div>
@@ -42,9 +43,7 @@ const ShimmerUI = ()=>{
                 <div className="shimmer-img"></div>
             </div>
 
-            <div className="shimmer-card">
-                <div className="shimmer-img"></div>
-            </div>
+            
         </div>
         
     )
