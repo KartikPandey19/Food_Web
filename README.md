@@ -1,4 +1,5 @@
 # Food Web Application
 
 Food web application created using React 
--Used Swiggy Api for Reataurant Data
+
+-Used Swiggy Api for Restaurant Data
