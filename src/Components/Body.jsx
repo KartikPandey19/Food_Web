@@ -2,7 +2,7 @@ import '../App.css';
 import { useState, useEffect } from 'react';
 import RestaurantCard from './RestaurantCard';
 import { SWIGGY_API_URL } from '../utils/constants';
-import ShimmerUI from './shimmer';
+import ShimmerUI from './Shimmer';
 
 
 
@@ -12,7 +12,7 @@ const Body = ()=>{
     const [searchText,setSearchText] = useState("");
 
     useEffect(()=>{
-        fetchData();
+        fetchData(); 
     }, []);
 
     const fetchData = async ()=>{
