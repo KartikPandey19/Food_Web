@@ -4,3 +4,5 @@ export const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_l
 export const LOGO_URL = "https://shorturl.at/dgEPZ";
 
 export const SWIGGY_API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+
+export const SWIGGY_RES_API_URL= "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=10.9254398&lng=79.8380056&restaurantId="
