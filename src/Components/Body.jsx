@@ -4,6 +4,7 @@ import RestaurantCard from './RestaurantCard';
 import { SWIGGY_API_URL } from '../utils/constants';
 import ShimmerUI from './Shimmer';
 import { Link } from 'react-router-dom';
+import { SearchBar } from './SearchBar';
 
 
 
@@ -35,6 +36,8 @@ const Body = ()=>{
         <input type='text' value={searchText} onChange={(e)=>{
             setSearchText(e.target.value);
         }}  />
+        <SearchBar></SearchBar>
+        
         <button onClick={()=>{
             const searchList = resList.filter((res)=>res.info.name.toLowerCase().includes(searchText.toLowerCase()));
             setFilterResList(searchList)

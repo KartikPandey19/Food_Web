@@ -34,7 +34,7 @@
 }
 
 .body{
-  margin: 8px 0;
+  margin: 68px 0;
 }
 
 .filter{
@@ -67,7 +67,7 @@
 
 }
 .res-container{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
   /* margin:0 10px; */
@@ -116,5 +116,10 @@
   background-color:#b1b1b1;
   width: 180px;
   height: 200px;
+}
+
+.user-card{
+  padding: 10px;
+  border: 1px solid black;;
 }
 
