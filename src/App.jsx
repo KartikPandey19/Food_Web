@@ -6,6 +6,7 @@ import Contact from './Components/Contact.jsx';
 import Error from './Components/Error.jsx';
 import RestaurantMenu from './Components/RestaurantMenu.jsx';
 import { createBrowserRouter, Outlet} from 'react-router-dom';
+import { Login } from './Components/Login.jsx';
 
 function App() {
   
@@ -38,6 +39,10 @@ function App() {
       {
         path:"/restaurants/:resId",
         element:<RestaurantMenu />
+      },
+      {
+        path:"/login",
+        element:<Login />
       }
     ],
     errorElement: <Error />
